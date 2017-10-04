@@ -10,7 +10,8 @@ def main():
 	setup(
 		name='bashcom',
 		version='0.1',
-		py_modules=['bashcom'],
+		#py_modules=['bashcom'],
+		packages=['bashcom'],
 		#install_requires=[''],
 		
 		author='',
